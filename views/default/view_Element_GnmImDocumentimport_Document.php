@@ -20,12 +20,13 @@
 
 <section class="element">
 	<header class="element-header">
-		<h3 class="element-title"><?php echo $element->elementType->name?></h3>
+
 	</header>
 	<div class="element-data">
 				<div class="row data-row">
-			<div class="large-2 column"><div class="data-label"><?php echo CHtml::encode($element->getAttributeLabel('protected_file_id'))?></div></div>
-			<div class="large-10 column end"><div class="data-value"><?php echo $element->protected_file_id?></div></div>
+			
+			<div class="large-10 column end"><div class="data-value"> <img src="/file/view/<?= $element->protected_file_id ?>/img.gif"></div></div>
+                       
 		</div>
 	</div>
 </section>
