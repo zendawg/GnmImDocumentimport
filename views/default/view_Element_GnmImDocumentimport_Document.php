@@ -20,12 +20,12 @@
 
 <section class="element">
 	<header class="element-header">
-
+           
 	</header>
 	<div class="element-data">
 				<div class="row data-row">
 			
-			<div class="large-10 column end"><div class="data-value"> <img src="/file/view/<?= $element->protected_file_id ?>/img.gif"></div></div>
+			<div class="large-10 column end"><div class="data-value"> <img width="700" src="/file/view/<?= $element->protected_file_id ?>/img.gif"></div></div>
                        
 		</div>
 	</div>
